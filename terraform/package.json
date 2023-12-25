@@ -1,6 +1,6 @@
 {
-  "name": "trn-azure",
-  "version": "1.0.0",
+  "name": "trn-cdktf-azure",
+  "version": "0.1.0",
   "main": "main.js",
   "types": "main.ts",
   "license": "MPL-2.0",

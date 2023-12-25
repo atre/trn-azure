@@ -1,5 +1,5 @@
 import 'dotenv/config';
-import { EnvProps } from 'trn-components/lib/azure/interfaces';
+import { EnvProps } from 'trn-cdktf-components/lib/azure/interfaces';
 
 export const env: EnvProps = {
   name: process.env.NAME || 'trn-azure',
