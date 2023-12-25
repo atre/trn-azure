@@ -25,6 +25,7 @@ new NetworkStack(app, 'network', {
 new AksStack(app, 'aks', {
   env,
   kubernetesCluster: {
+    kubernetesVersion: '1.28.3',
     defaultNodePool: {
       name: 'default',
       nodeCount: 1,
