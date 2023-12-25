@@ -302,10 +302,35 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
+"@cdktf/provider-aws@^18.2.0":
+  version "18.2.0"
+  resolved "https://registry.yarnpkg.com/@cdktf/provider-aws/-/provider-aws-18.2.0.tgz#ef1c6088111754fff0f9712d85811a7e4d891821"
+  integrity sha512-Dm+ORqd9ttGH8PqdDe4q72QHoHO0BfgBEMDasagcP4b0lhYV3oiYxJtHsqdOJEKiv6EvHZT3/iftXwU2uOjnlA==
+
+"@cdktf/provider-azuread@^11.1.0":
+  version "11.1.0"
+  resolved "https://registry.yarnpkg.com/@cdktf/provider-azuread/-/provider-azuread-11.1.0.tgz#cb73b070e2fa7f449553f8cc42058bca817ec929"
+  integrity sha512-Xbbl2soFVBoXpWTbOwupV2aTgoeZHlclU4ZBcTABx7HipLToK362V+XicrJppPn62uDqtRnhMaNKrZBlHdZY2w==
+
 "@cdktf/provider-azurerm@^11.0.7":
   version "11.2.0"
   resolved "https://registry.yarnpkg.com/@cdktf/provider-azurerm/-/provider-azurerm-11.2.0.tgz#d83d5235e803e16931db55d820f29b38ff2b6a28"
   integrity sha512-1YpDrScd4YckEVKBPnXUI9yGeRmv7SiQdAj6Mq9eBXWgP1bemRk4mkQlqGm2pe9h5BECLEMZyAg5Cv/JGJX0Uw==
+
+"@cdktf/provider-github@12.0.2":
+  version "12.0.2"
+  resolved "https://registry.yarnpkg.com/@cdktf/provider-github/-/provider-github-12.0.2.tgz#c3e50145fc6f83d4e9667b522f677acf7458c773"
+  integrity sha512-Dg09hWmNEnM3PAaknMVYRupi2OKVRsSefaVxTOE6KGkZnjoZBUYzzaJp98r+qpN0UfLdkE6r5kSEGpKmj2hkkg==
+
+"@cdktf/provider-helm@^9.0.2":
+  version "9.0.2"
+  resolved "https://registry.yarnpkg.com/@cdktf/provider-helm/-/provider-helm-9.0.2.tgz#86f3dcb26742745cd51edeb19556e944cbef6cee"
+  integrity sha512-+xhUJtxPi2wLjPe1ZuQsMHrtMdV+90F90qiK7bKp4CNIkzZQ++wrSmw4DKUR6UWve9B4Xp+bX1B1U+9rZJxaCg==
+
+"@cdktf/provider-kubernetes@^10.0.1":
+  version "10.0.1"
+  resolved "https://registry.yarnpkg.com/@cdktf/provider-kubernetes/-/provider-kubernetes-10.0.1.tgz#55e2e14f17fc129234e2e8dd0775bee0dd0d4ade"
+  integrity sha512-JaYGNtMIvZEY8mqfcx4YHPRipxkXvGfsHHzYjUN4iRa3zONHmHMTlkxYyAybldqOaPkMmJPG/tiGXl2Vm9jWDQ==
 
 "@cspotcode/source-map-support@^0.8.0":
   version "0.8.1"
@@ -1257,7 +1282,7 @@ caniuse-lite@^1.0.30001565:
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001571.tgz#4182e93d696ff42930f4af7eba515ddeb57917ac"
   integrity sha512-tYq/6MoXhdezDLFZuCO/TKboTzuQ/xR5cFdgXPfDtM7/kchBO3b4VWghE/OAi/DV7tTdhmLjZiZBZi1fA/GheQ==
 
-cdktf@^0.19.1:
+cdktf@^0.19.1, cdktf@^0.19.2:
   version "0.19.2"
   resolved "https://registry.yarnpkg.com/cdktf/-/cdktf-0.19.2.tgz#c93b794a9c8ac6b4e50bc24e80d06d84089a8766"
   integrity sha512-FHOERDO7i2g/+pUaaZCVDKsbXEBtWYOgELL1UKjNp37DyEmtFlltdsgutVfouoil0C7W5za2IydD6sSeoH5aUw==
@@ -2131,6 +2156,11 @@ human-signals@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/human-signals/-/human-signals-2.1.0.tgz#dc91fcba42e4d06e4abaed33b3e7a3c02f514ea0"
   integrity sha512-B4FFZ6q/T2jhhksgkbEW3HBvWIfDW85snkQgawt07S7J5QXTk6BkNV+0yAeZrM5QpMAdYlocGoljn0sJ/WQkFw==
+
+husky@^8.0.3:
+  version "8.0.3"
+  resolved "https://registry.yarnpkg.com/husky/-/husky-8.0.3.tgz#4936d7212e46d1dea28fef29bb3a108872cd9184"
+  integrity sha512-+dQSyqPh4x1hlO1swXBiNb2HzTDN1I2IGLQx1GrBuiqFJfoMrnZWwVmatvSiO+Iz8fBUnf+lekwNo4c2LlXItg==
 
 ieee754@^1.1.13:
   version "1.2.1"
@@ -3617,6 +3647,21 @@ to-regex-range@^5.0.1:
   integrity sha512-65P7iz6X5yEr1cwcgvQxbbIw7Uk3gOy5dIdtZ4rDveLqhrdJP+Li/Hx6tyK0NEb+2GCyneCMJiGqrADCSNk8sQ==
   dependencies:
     is-number "^7.0.0"
+
+trn-cdktf-components@^0.1.1-231225121227.rc.0:
+  version "0.1.1-231225121227.rc.0"
+  resolved "https://registry.yarnpkg.com/trn-cdktf-components/-/trn-cdktf-components-0.1.1-231225121227.rc.0.tgz#10f473ffdfa6c6aae1c1a6dc0ca57a3579ce6f39"
+  integrity sha512-CD/50Ngr0vwDiTOnVpd7On4qLBg0Zg8Y8fwLMcCXqI6eJgh8ZP3h8FmF08fr0OW9ms5xmRIi+O6pBu8vSJUkWQ==
+  dependencies:
+    "@cdktf/provider-aws" "^18.2.0"
+    "@cdktf/provider-azuread" "^11.1.0"
+    "@cdktf/provider-azurerm" "^11.0.7"
+    "@cdktf/provider-github" "12.0.2"
+    "@cdktf/provider-helm" "^9.0.2"
+    "@cdktf/provider-kubernetes" "^10.0.1"
+    cdktf "^0.19.2"
+    constructs "^10.3.0"
+    husky "^8.0.3"
 
 ts-api-utils@^1.0.1:
   version "1.0.3"

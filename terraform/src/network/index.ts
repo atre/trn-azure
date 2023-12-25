@@ -6,6 +6,6 @@ export class NetworkStack extends TerraformStack {
   constructor(scope: Construct, id: string, props: NetworkProps) {
     super(scope, id);
 
-    new Network(this, 'network', props);
+    new Network(this, id, props);
   }
 }
